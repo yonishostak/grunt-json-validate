@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "/Project",
+    "title": "grunt-jsonvalidate-test-schema-project",
+    "description": "Project schema for grunt-jsonvalidate testing",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "active": {
+            "type": "boolean"
+        },
+        "id": {
+            "type": "integer"
+        },
+        "extraInfo": {
+            "$ref": "/ExtraInfo"
+        }
+    },
+    "required": [ "name", "active", "id" ],
+    "additionalProperties": false
+}

@@ -1,0 +1,7 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "/ExtraInfo",
+    "title": "grunt-jsonvalidate-test-schema-extrainfo",
+    "description": "Project schema for grunt-jsonvalidate testing",
+    "type": [ "object", "null" ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "I am a string",
+    "number": 345,
+    "projects": [
+        {
+            "name": "jsonvalidate",
+            "active": true,
+            "id": "I should be a number"
+        },
+        {
+            "name": "somethingelse",
+            "active": false,
+            "id": 98721,
+            "extraInfo": null
+        },
+        {
+            "name": "anotherone",
+            "id": 12345,
+            "extraInfo": {
+                "property1": 4,
+                "property2": "a string",
+                "property3": false,
+                "property4": [ "asd", "fgh", "hjk" ]
+            }
+        }
+    ]
+}
